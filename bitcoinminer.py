@@ -1,6 +1,6 @@
 from hashlib import sha256
 
-Max_Nonce = 100000
+Max_Nonce = 1000000
 
 #An example hashing function
 def Sha256(text):
@@ -26,7 +26,7 @@ if __name__ == '__main__':
     Steve->Austin->20
     James->Sam->50
     """
-    difficulty = 4 #No of zeros || Increasing this takes more computations
+    difficulty = 5 #No of zeros || Increasing this takes more computations
     import time
     start_time = time.time()
     print("Start mining")
